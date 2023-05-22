@@ -1,0 +1,14 @@
+input::before {
+    content: 'dd';
+    width: 12px;
+    height: 1222222px;
+    background-color: yellow !important;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* Define los estilos cuando el input tiene el foco */
+  input:focus::before {
+    width: 100%;
+  }
+
+  
